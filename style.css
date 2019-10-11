@@ -7,6 +7,14 @@ body {
   width: 100%;
 }
 
+.top-banner {
+  display:block;
+  position:relative;
+  overflow:hidden;/*keeps the image in the container*/
+  height: 10vw;
+}
+.top-banner img{position:absolute;top:0;width:100%}
+
 .disclaimer {
   background-color: antiquewhite;
   border: 2px solid black;
@@ -67,10 +75,34 @@ h5 {
   z-index: 100;
 }
 
-.top-banner {
-  display:block;
-  position:relative;
-  overflow:hidden;/*keeps the image in the container*/
-  height: 10vw;
+
+
+/* Cascade */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100vh, 100vh);
 }
-.top-banner img{position:absolute;top:0;width:100%}
+
+.nested {
+    display: grid;
+    grid-auto-rows: minmax(50%, 50%);
+}
+
+.nested2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* split vertically */
+.nested3 {
+    display: grid;
+    grid-auto-rows: minmax(50%, 50%);
+}
+
+/* split horizontally */
+.nested4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

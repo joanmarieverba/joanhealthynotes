@@ -66,9 +66,7 @@ h5 {
     margin: 0 0 10px 10px;
 }
 
-#lspace {
-  float: right;
-}
+
 
 .socialmedia {
   right: 9vw;
@@ -77,33 +75,3 @@ h5 {
 }
 
 
-
-/* Cascade */
-
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: minmax(100vh, 100vh);
-}
-
-.nested {
-    display: grid;
-    grid-auto-rows: minmax(50%, 50%);
-}
-
-.nested2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-/* split vertically */
-.nested3 {
-    display: grid;
-    grid-auto-rows: minmax(50%, 50%);
-}
-
-/* split horizontally */
-.nested4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}

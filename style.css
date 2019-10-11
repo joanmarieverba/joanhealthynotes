@@ -12,6 +12,7 @@ body {
   position:relative;
   overflow:hidden;/*keeps the image in the container*/
   height: 10vw;
+  margin-bottom: 4vh;
 }
 .top-banner img{position:absolute;top:0;width:100%}
 

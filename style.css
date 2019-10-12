@@ -41,10 +41,6 @@ h4 {
   font-family: 'Bitter';
 }
 
-h5 {
-  color: black;
-  font-family: 'Bitter';
-}
 
 .linkbox {
   font-weight: bold;
@@ -66,12 +62,12 @@ h5 {
     margin: 0 0 10px 10px;
 }
 
-
-
 .socialmedia {
   right: 9vw;
   text-align: right;
   z-index: 100;
 }
 
-
+.text {
+  font-family: Oswald;
+}

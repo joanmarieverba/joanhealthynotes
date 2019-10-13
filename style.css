@@ -70,4 +70,6 @@ h4 {
 
 .text {
   font-family: Oswald;
+  padding-left: 10px;
+  text-align: justify;
 }
